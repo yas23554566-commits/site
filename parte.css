@@ -1,0 +1,80 @@
+body{
+    text-align: center; /* centraliza o texto , body corpo da pagina */
+    font-family: 'Open Sans', sans-serif; /* define a fonte do texto */
+    background: #8a71c9; /* define a cor de fundo da pagina */
+    color: white; /* define a cor do texto */
+    margin: 0px 0px 30px 0px;/* remove a margem padrao do body */
+    
+    
+}
+h2{
+    color: #2a0074; /* define a cor do texto dos titulos h2 */
+    font-size: 40px; /* define o tamanho da fonte dos titulos h2 */
+}
+.titulo-verde{
+    color: #04ff9f; /* define a cor do texto dos titulos h3 */
+}
+.vermelha{
+    color: #FF9E9E;
+}
+.amarela{
+    color: #FFFF7E;
+}
+section{
+  width: 60%;/* define a largura da secçao */
+  margin : 0 auto; /* centraliza a secçao */
+}
+section section{
+    width: 100%; /* define a largura da secçao interna */
+}
+h3{
+    font-style: italic;
+    font-size: 30px;
+}
+h1{
+    font-weight: 300;
+    font-size: 60px;
+}
+p{
+    line-height: 1.5; /* define o espaçamento entre as linhas do parágrafo */
+    font-size: 20px; /* define o tamanho da fonte dos parágrafos */
+}
+img{
+    width: 100%; /* define a largura da imagem */
+}
+ul{
+    list-style-type: none;
+    line-height: 2;
+    padding-left: 0;
+}
+a{
+    list-style-type: none;
+    color: #99ffff;
+    font-weight: 700;
+}
+.principal{
+  background: #ff6cbf; /* define a cor de fundo do menu de navegação */
+  height: 40px;
+  max-width: 60%; /* define a largura do menu de navegação */
+    margin : 0 auto; /* centraliza o menu de navegação */
+}
+.principal a{
+    color: #fff;
+    font-weight: normal;
+    text-decoration: underline;
+   
+}
+.principal  li{
+    display: inline-block;
+    line-height: 2.5;
+    margin: 0 89px 0 0;
+
+    
+}
+button{
+    background: #04ff9f;
+    padding: 2px 20px;
+
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
